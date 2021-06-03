@@ -2,6 +2,7 @@
 
 library(ggseg, quietly = TRUE, warn.conflicts = FALSE)
 library(ggseg3d, quietly = TRUE, warn.conflicts = FALSE)
+library(ggplot2, quietly = TRUE, warn.conflicts = FALSE)
 
 context("test-palettes")
 test_that("check new palettes work", {

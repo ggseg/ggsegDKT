@@ -1,14 +1,18 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ggsegDKT
+# ggsegDKT <img src='man/figures/logo.png' align="right" height="138.5" />
 
 <!-- badges: start -->
 
 [![R build
 status](https://github.com/LCBC-UiO/ggsegDKT/workflows/R-CMD-check/badge.svg)](https://github.com/LCBC-UiO/ggsegDKT/actions)
-<!-- badges: end --> This package contains dataset for plotting the
-Shaefer cortical atlas ggseg and ggseg3d.
+[![DOI](https://zenodo.org/badge/314486110.svg)](https://zenodo.org/badge/latestdoi/314486110)
+
+<!-- badges: end -->
+
+This package contains dataset for plotting the Shaefer cortical atlas
+ggseg and ggseg3d.
 
 ## Installation
 
@@ -28,7 +32,7 @@ library(ggsegDKT)
 
 ``` r
 library(ggseg)
-#> Loading required package: ggplot2
+library(ggplot2)
 
 plot(dkt) +
   theme(legend.position = "bottom",
