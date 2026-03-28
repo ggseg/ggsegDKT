@@ -1,10 +1,21 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # ggsegDKT
 
 <!-- badges: start -->
-
 [![R-CMD-check](https://github.com/ggsegverse/ggsegDKT/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ggsegverse/ggsegDKT/actions/workflows/R-CMD-check.yaml)
 [![r-universe](https://ggsegverse.r-universe.dev/badges/ggsegDKT)](https://ggsegverse.r-universe.dev/ggsegDKT)
 <!-- badges: end -->
@@ -13,7 +24,7 @@ DKT Atlas for the ggsegverse Ecosystem.
 
 ## Installation
 
-``` r
+```{r, eval = FALSE}
 # From r-universe
 install.packages("ggsegDKT", repos = "https://ggsegverse.r-universe.dev")
 
@@ -23,22 +34,18 @@ remotes::install_github("ggsegverse/ggsegDKT")
 ```
 
 ## Atlases
-
 ### dkt
-
+ 
 Desikan-Killiany-Tourville cortical parcellation.
 
-``` r
+```{r dkt}
 library(ggsegDKT)
 plot(dkt())
 ```
-
-<img src="man/figures/README-dkt-1.png" alt="" width="100%" /> \## Data
-source
+## Data source
 
 Built-in FreeSurfer annotation (`aparc.DKTatlas.annot`).
 
-- **Reference**: Klein & Tourville (2012)
-  [doi:10.3389/fnins.2012.00171](https://doi.org/10.3389/fnins.2012.00171)
+- **Reference**: Klein & Tourville (2012) [doi:10.3389/fnins.2012.00171](https://doi.org/10.3389/fnins.2012.00171)
 
 - **Date obtained**: 2020-11-20
