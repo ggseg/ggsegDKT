@@ -72,3 +72,10 @@ Please note that the ggsegDKT project is released with a [Contributor
 Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
+
+## Data source
+
+Built-in FreeSurfer annotation (`aparc.DKTatlas.annot`) from the fsaverage5 subject.
+
+- **Reference**: Klein & Tourville (2012) [doi:10.3389/fnins.2012.00171](https://doi.org/10.3389/fnins.2012.00171)
+- **Date obtained**: 2020-11-20 (FreeSurfer 7.4.1)
