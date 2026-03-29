@@ -17,4 +17,5 @@
 #' @export
 #' @examples
 #' dkt()
+#' plot(dkt())
 dkt <- function() .dkt
