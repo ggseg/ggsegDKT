@@ -6,6 +6,7 @@
 #' for [ggseg3d::ggseg3d()].
 #'
 #' @family ggseg_atlases
+#' @family cortical_atlases
 #'
 #' @references Klein A, Tourville J (2012).
 #'   101 labeled brain images and a consistent human cortical labeling protocol.
